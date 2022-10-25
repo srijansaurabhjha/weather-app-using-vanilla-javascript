@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main" class="main_white_mode">
+      <div id="search">
+        <input type="text" placeholder="Enter City Name" id="search_bar" />
+        <button id="search_btn">search</button>
+      </div>
+      <div id="weather_info" class="weather_info_white_mode">
+        <!-- id="weather_info" -->
+        <p id="city_name" class="city_name_white_mode"></p>
+        <div id="details">
+          <span id="min_max">
+            <p id="temp_max" class="temp_max_white_mode"></p>
+            <p id="temp_min" class="temp_min_white_mode"></p>
+          </span>
+          <span id="flm">
+            <p id="feels_like" class="feels_like_white_mode"></p>
+            <p id="humidity" class="humidity_white_mode"></p>
+          </span>
+        </div>
+        <p id="desc" class="desc_white_mode"></p>
+        <p id="error" class="error_white_mode">See weather of any city you like</p>
+      </div>
+      <div id="btn_box">
+         <div id="part_btn1" class="align_top_box">
+             <button id="change_temp_unit" class="make_button_circular bottom_gap">T</button>
+             <p id="change_temp_unit_text" class="change_temp_unit_text_white_mode">celsius</p>
+         </div>
+         <div id="part_btn2" class="align_top_box">
+             <button id="dark_mode" class="make_button_circular bottom_gap dark_mode_white_mode">D</button>
+             <p id="dark_mode_text" class="dark_mode_text_white_mode">dark mode</p>
+         </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+ 
