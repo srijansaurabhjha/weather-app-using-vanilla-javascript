@@ -82,6 +82,7 @@
     min-height: 35%; 
     border-radius: 1rem;
     padding:0 1rem;
+    overflow: hidden;
 }
 
 .weather_info_white_mode{
